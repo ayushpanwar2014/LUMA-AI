@@ -1,0 +1,152 @@
+.createAccount {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    height: 92vh;
+    color: #555555;
+
+    .container {
+
+        width: 40vw;
+        height: 85vh;
+        background-color: rgb(239, 241, 243); 
+        border-radius: 5px;
+        display: flex;
+        border: 1px solid rgb(136, 136, 136);
+        
+        .login{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            
+
+            h2{
+                font-size: 20px;
+                margin-top: 30px;
+            }
+
+            .close{
+                cursor: pointer;
+                position: absolute;
+                top: 115px;
+                right: 460px;
+                height: 15px;
+                width: 15px;
+            }
+            .btn{
+
+                display: flex;
+                margin-top: 10px;
+                .signIn{
+                    border-radius: 2px;
+                    cursor: pointer;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: none;
+                    font-size: 15px;
+                    color: rgba(0, 0, 0, 0.678);
+                    font-weight: bold;
+                    padding: 15px 88px;
+                }
+                .signUp{
+                    border-radius: 2px;
+                    cursor: pointer;
+
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: none;
+                    font-size: 15px;
+                    color: rgba(0, 0, 0, 0.678);
+                    font-weight: bold;
+                    padding: 15px 89px;
+                }
+            }
+            .item{
+
+                background-color: white;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                width: 90%;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                
+                form{
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    h1{
+                        font-size: 22px;
+                        color:  #adadad;
+                    }
+        
+                    input[type=text], select {
+                        width: 200%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=email], select {
+                        width: 200%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=password], select {
+                        width: 200%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+        
+                    .b1{
+                        border: none;
+                        border-radius: 5px;
+                        background: linear-gradient(to bottom right, #ff966d, #fa538d, #89379c);
+                        color: white;
+                        padding: 12px 20px;
+                        width: 200%;
+                        font-size: 15px;
+                        font-weight: 600;
+                        cursor: pointer;
+
+                    }
+                    
+                }
+            }
+        
+        }
+
+    }
+
+
+}
+
+.login{
+    height: 100%;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

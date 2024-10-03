@@ -1,0 +1,54 @@
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 75px;
+    width: 1440px;
+    color: whitesmoke;
+    margin-top: -9px;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #ff966d, #fa538d, #89379c);
+
+    .item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 13px;
+        gap: 25px;
+        margin-right: 20px;
+        p{
+            font-style: italic;
+            font-size: 22px;
+            font-weight:bolder;
+            margin-left: 20px;
+        }
+
+        .darkmode {
+            img {
+                cursor: pointer;
+                height: 20px;
+                width: 20px;
+                object-fit: contain;
+            }
+        }
+        .signIn {
+
+
+
+            button {
+                font-weight: 100;
+                margin-top: -10px;
+                color: white;
+                border-radius: 5px;
+                border: 3px solid white;
+                padding: 10px 25px;
+                margin-right: 20px;
+                background: linear-gradient(to bottom right, #ff966d, #fa538d, #89379c);
+                cursor: pointer;
+            }
+        }
+    }
+}
